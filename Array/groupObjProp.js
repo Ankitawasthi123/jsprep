@@ -1,6 +1,8 @@
 function groupObject(arr) {
-  return arr.reduce((groups, person) => {
-    console.log(person);
+  return arr.reduce((group, person) => {
+    const key = person.age;
+    (group[key] = group[key] || []).push(person);
+    return group;
   }, {});
 }
 
