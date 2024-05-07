@@ -1,11 +1,9 @@
 function reversArray(arr) {
-    
   // reverse array with reduce right
   //   return arr.reduceRight((acc, currVal) => {
   // acc.push(currVal);
   // return acc;
   //   }, []);
-
 
   // using for loop
   let reverseArray = [];
